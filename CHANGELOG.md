@@ -29,7 +29,7 @@ cd custom-dark
 /bin/bash /root/miab-themes/custom-dark/default-light.sh
 ```
 
-[EDIT 190310-19:00 CET] Following some client(s) request(s) needed to change the setup scripts to delete useless directories & files accordingly to the theme you liked to have installed. Then knowing all the setup directories & files created/ used to apply the theme will be deleted automatically by de setup itself. **If you wish to apply a different theme just run setup again.**
+[**EDIT 190310-19:00 CET**] Following some client(s) request(s) decided to change the setup scripts to delete useless directories & files accordingly to the theme liked to have installed. Then, knowing all the directories & files created/ used to apply the desired theme will be deleted automatically by de setup itself, **If you wish to apply a different theme at anytime run setup again.**
 
 
 **Screenshot:**
