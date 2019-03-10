@@ -1,0 +1,6 @@
+.form-control, pre { background-color: #ccc; }
+.modal-header { background-color: #555; }
+.modal-body { background-color: #444; }
+.modal-footer { border-top: 1px solid #444; background-color: #444; }
+.panel-body { background-color: #444; }
+code { background-color: #ccc0; }
