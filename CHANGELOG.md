@@ -18,16 +18,19 @@ cd custom-dark
 /bin/bash ./config.sh && cd
 ```
 
-* Then, to manually apply the **custom-dark** theme at anytime, run:
+* Then, to apply the **custom-dark** theme run:
 
 ```
 /bin/bash /root/miab-themes/custom-dark/custom-dark.sh
 ```
-* or to manually apply/ restore the **default-light** theme at anytime, run:
+* To apply/ restore the **default-light** theme run:
 
 ```
 /bin/bash /root/miab-themes/custom-dark/default-light.sh
 ```
+
+[EDIT 190310-19:00 CET] Following some client(s) request(s) needed to change the setup scripts to delete useless directories & files accordingly to the theme you liked to have installed. Then knowing all the setup directories & files created/ used to apply the theme will be deleted automatically by de setup itself. **If you wish to apply a different theme just run setup again.**
+
 
 **Screenshot:**
 
