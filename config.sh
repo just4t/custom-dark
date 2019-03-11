@@ -5,15 +5,13 @@ mv /root/custom-dark/miab-themes /root/
 
 wait
 
-sleep 2
+sleep 5
 
 # Making sh files executable.
 chmod +x /root/miab-themes/custom-dark/custom-dark.sh
 chmod +x /root/miab-themes/custom-dark/default-light.sh
 
 wait
-
-sleep 2
 
 echo
 echo =================================================
