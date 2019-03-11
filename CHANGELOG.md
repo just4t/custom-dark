@@ -10,10 +10,10 @@ v0.41 beta (March 09, 2019)
 
 **Setup:**
 
-* To download and config. the **custom-dark** theme, run:
+* To download and config. the **custom-dark** theme as **root**, run:
 
 ```
-git clone -b master https://github.com/just4t/custom-dark.git
+cd && git clone -b master https://github.com/just4t/custom-dark.git
 cd custom-dark
 /bin/bash ./config.sh && cd
 ```
