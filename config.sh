@@ -5,28 +5,30 @@ mv /root/custom-dark/miab-themes /root/
 
 wait
 
+sleep 2
+
 # Making sh files executable.
 chmod +x /root/miab-themes/custom-dark/custom-dark.sh
 chmod +x /root/miab-themes/custom-dark/default-light.sh
 
 wait
 
-sleep 3
+sleep 2
 
 echo
 echo =================================================
 echo
 echo Done! Post download config. settings have been applied as follows:
 echo
-echo - Moved /miad-themes folder to /root/
-echo - Made scripts executables.
-echo - Deleted the now useless /root/custom-dark folder.
+echo - Moved /root/custom-dark/miad-themes folder to /root/
+echo - Made sure scripts are CHMOD=+x [executables]
+echo - Deleted the now useless /root/custom-dark folder
 echo
-echo To manually apply the CUSTOM-DARK theme run:
+echo To apply the CUSTOM-DARK theme run:
 echo
 echo sudo /bin/bash /root/miab-themes/custom-dark/custom-dark.sh
 echo
-echo To manually apply/ restore the DEFAULT-LIGHT theme run:
+echo Or to apply/ restore the DEFAULT-LIGHT theme run:
 echo
 echo sudo /bin/bash /root/miab-themes/custom-dark/default-light.sh
 echo
