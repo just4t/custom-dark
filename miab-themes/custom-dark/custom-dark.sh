@@ -21,8 +21,9 @@ wait
 # 'status-checks' sed 'delete/append' patch for custom-dark theme:
 sed -i -e 's/#733/#888/1; s/#770/#cc0/1; s/#040/#03ab22/1' /root/mailinabox/management/templates/system-status.html
 
+wait
+
 # 'index' sed 'delete/append' patch for custom-dark theme:
-sed -i -e 's/#733/#888/1; s/#770/#cc0/1; s/#040/#03ab22/1' /root/mailinabox/management/templates/system-status.html
 sed -i '8d' /root/mailinabox/management/templates/index.html
 sed -i '7a\\t\t<link rel="icon" href="/admin/assets/images/wicon-32.png" type="image/png"> <title>{{hostname}} - Control Panel</title>' /root/mailinabox/management/templates/index.html
 sed -i '12d' /root/mailinabox/management/templates/index.html
