@@ -1,6 +1,11 @@
 CHANGELOG
 =========
 
+v0.43 stable (September 01, 2019)
+---------------------------
+
+Tested/ applied 'Master' over Mail-in-a-Box **v0.43 (September 01, 2019)** and no additional changes have been needed. Just works, too!
+
 v0.42b stable (August 04, 2019)
 ---------------------------
 
